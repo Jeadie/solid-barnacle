@@ -1,3 +1,4 @@
+import os
 
 class SolidBarnacleAPI(object):
 
@@ -12,3 +13,4 @@ class SolidBarnacleAPI(object):
             will be placed in a new folder "../step" relative to the feature_path
         """
         pass
+        # for file in os.listdir(feature_path):

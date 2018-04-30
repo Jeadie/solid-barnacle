@@ -1,6 +1,6 @@
-from .BDDCodeFormatter import BDDCodeFormatter
 
-class BehaveFormatter(BDDCodeFormatter):
+
+class BDDCodeFormatter(object):
 
     @staticmethod
     def get_format_extension():
