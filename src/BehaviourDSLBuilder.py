@@ -1,9 +1,13 @@
 class BehaviourDSLBuilder(object):
 
+
     @staticmethod
     def build_feature(featureInput):
         pass
 
+    @staticmethod
+    def build_background(backgroundInput):
+        pass
 
     @staticmethod
     def build_scenario(scenarioInput):

@@ -13,6 +13,10 @@ class GherkinBuilder(BehaviourDSLBuilder):
         pass
 
     @staticmethod
+    def build_background(backgroundInput):
+        pass
+
+    @staticmethod
     def build_scenario(gherkinScenario):
         pass
 
